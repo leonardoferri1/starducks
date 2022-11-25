@@ -1,0 +1,130 @@
+{
+  "coffees": [
+    {
+      "id": 1,
+      "types": ["TRADICIONAL"],
+      "title": "Expresso Tradicional",
+      "description": "O tradicional café feito com água quente e grãos moídos",
+      "image": "https://s3-alpha-sig.figma.com/img/55b1/f9ee/64600f98b2bae456b96fdc624c4b4f47?Expires=1669593600&Signature=EOGbXQYBeqYX1C7GcMygyM0XJaqbOU3ydZiPqL-NY6aHiskkr5FHMDc8QkVgOtGsiimXJJcmgjCy6XxHHUQcEHd1acupWJNluTrZXcnUpXvk0n6xEb5bBv6nQrioxaAGeaBA1L9Rd35dPGSi2ciwfqNKI7EctYFJ1qwJglnEqKW8bylgmjPXr6IEAXuZ2f4gRujfM~ikF64yMxA8i1TBrnpm4iPJqQ8dKZy3ncRYbjDnkyYWX-ngs51EbpbIkS5gsWuiafbgBmdCqEuso-t~lO0noqAiQ9lAS7mdfhvqrAsclTTn8gIXaDm--CciazC0p83m03Mf3YqLy-M9Sin8QA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 9.9,
+      "amount": 0
+    },
+    {
+      "id": 2,
+      "types": ["TRADICIONAL"],
+      "title": "Expresso Americano",
+      "description": "Expresso diluído, menos intenso que o tradicional",
+      "image": "https://s3-alpha-sig.figma.com/img/b6af/775d/aaa94dcb37dfe1ee6535aae5b9356e9a?Expires=1669593600&Signature=Ono-XnSZzuH2d3V6KFS5pBRA~xzXrSeY2puH3E953tHOcrxoGacMVzvv7ltznjiDpEKtDRGoXDlPxSPR4GqFRuFqCAVvB~ScaEiltapcwkshQ6SqEjUskD55SJnT72gdJs~AptTCaFLis8iEkcpmrTCRPNe2sU6S0s7OOYnwdEWxbSVKLE-JLWSQeru5UatzD43tn6WrhRpHJu1rsJ8AEKjqg9FlYiDxgEw-d5bCftHz-rcEHuwhmGzec92ypeLzn6y9U6S0ut4LX6Drf5alcT6p~pLcSWq-St3JE-KAvk00HJCa0OPL9EdEF9uAsxUbS~A9aNalc0eyiy8F8PVt~Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 15.9,
+      "amount": 0
+    },
+    {
+      "id": 3,
+      "types": ["TRADICIONAL"],
+      "title": "Expresso Cremoso",
+      "description": "Café expresso tradicional com espuma cremosa",
+      "image": "https://s3-alpha-sig.figma.com/img/bcfa/72ad/62a8600eeded092c17fd14240624545e?Expires=1669593600&Signature=f5a8FkR-~5R96LPNAtX9DDy2~nDr9BQ6nGEulEJfd3alW8Uj6CyXePmn1jDjvH5b7Wd6o9kysM2ktpOJubzsE6mKa5J~m~bPQ4XQrMKMQaRgCpn7MFvb6R0Ep95bMth1-sfVFIMPoEUdiQznHRMPO0EXqHDpxgz13D6n36cNAeZdlUQNYv8bn8oGY56bcD7MlOgqrEkAN4UwuRy~2ORy-L9xKyAOGK4tdXQiFQd~Y~zhz9DrX8qrI~R37vD8LOv1XcXJhukbd9cSZ2y2eo-GTgQKrHidTXxybF-3KV3ven9xJ5l-yNFxd4mL2nvjPvaw-NmLISzC7OaBLWSn-tkTqA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 12.9,
+      "amount": 0
+    },
+    {
+      "id": 4,
+      "types": ["TRADICIONAL", "GELADO"],
+      "title": "Expresso Gelado",
+      "description": "Bebida preparada com café expresso batido com gelo",
+      "image": "https://s3-alpha-sig.figma.com/img/f389/2f36/d263d0013831cd5b1fb27c6d2ac64353?Expires=1669593600&Signature=Zls5mGtEMDYp-SagKVweG50D~TsGVa8h-CRwZfPANxSJXW6ZITjaI7~s0UUknJ~QB7TrRwR1oOC4bRyBwsZpcJbMJRraGeAi6MsL4xk0pr6fuyjcmyw1WDGrcOX5DP-HPMnKfqddDnJ2bV-kWznPvSh8c8WsWAC1HhyRqPj8LiV16BGI64K~jPmlqt84WAkS3nQEH6jZ7Eh9b236AT6Ybp25sdaYCrpOD1QaWeOPViRbsnLRakrtf~3aFs82fzaHtBP9W3ElDJsnyyBNvCiTpNWAZz0fzQBCpL-0tOGQAuMqjtlODGGJ8kyWKO5vHmDJlsLF6N6Hb8fCWU9ebdVKPg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 5.9,
+      "amount": 0
+    },
+    {
+      "id": 5,
+      "types": ["TRADICIONAL", "COM LEITE"],
+      "title": "Café com Leite",
+      "description": "Meio a meio de expresso tradicional com leite vaporizado",
+      "image": "https://s3-alpha-sig.figma.com/img/96a1/748f/55962d2032bd0e2555d1261409dbd24d?Expires=1669593600&Signature=AF564VFf4r5U1tSsvz34uPYI90SpH6uoTGTyISw5cUzdRTJN-MI8biKornhGPB1QnmPRD1R2pmcVUdc6hXavNwotfQUwK8Bgb-1cwCoJFOCI-vx-U6SRkk3i0CC3~onsWmtp5T1WTO5MjlaqauRV-RMQf7ic6okEMkA91C6SI~yTo2sMvMkjAHZ0LE8toF5prNbJHROQfVXsZaOBWbZ2edqnoBXelFt22S0LFmunO-9CHCx1Hbmo5oZNCEj~BbPuHnGMXUNPcn7pNCall88hP~z1ySzpj-s0R0M1IRhv3nTCpyFVN4eZ1P~a28gLEASlGgOGB2MduVIkmTk5ovi39g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 11.9,
+      "amount": 0
+    },
+    {
+      "id": 6,
+      "types": ["TRADICIONAL", "COM LEITE"],
+      "title": "Latte",
+      "description": "Uma dose de café expresso com o dobro de leite e espuma cremosa",
+      "image": "https://s3-alpha-sig.figma.com/img/0a3c/9586/9a75d3fa0ffdecc4bc46ca83d2342e1c?Expires=1669593600&Signature=KovYwYr6hEo9HnGKmR4rxcPb6KUfz4iebJnSg1ccSCRUhfDP9KCFjNOyAX4gZW3EbFuJs6Pfly98fleDoZzg8JrERJn5EckdSYX3lEMxVPmrwzhG1cvcy0l61BX1QIdHCK2o-5q2x-CZFj6h0yH7X6FqW0tZI8L9G4qEJfNUhPH3g-o3zjOdDOz9DEQesOEj4wL2EbjeWf8gJjTftlU7T4A9kmOGGpPETN~FC4RPob93Wpx5gD0k8oqJb8DGffeSOchBjueZC9MvX8cgs48Ehs-tFTIHIfwiTQUFxutOdxlLrPnuFrugb8yTMq962H-SKqmdcTZRJtroXEBA2frGdA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 9.9,
+      "amount": 0
+    },
+    {
+      "id": 7,
+      "types": ["TRADICIONAL", "COM LEITE"],
+      "title": "Capuccino",
+      "description": "Bebida com canela feita de doses iguais de café, leite e espuma",
+      "image": "https://s3-alpha-sig.figma.com/img/6693/81b7/0a9565b6f322ac8b5229ee4fc4b47825?Expires=1669593600&Signature=UlihOs601xbl87-wf-h5knj~oXVdC1YEqWJLBw14k5bt56lFl8Z2U4h7SqWsV4O2W8Utp23E3mKJe9V7rprJlnjlecRHD1cPhTrKrk~hMo18O0EHgQ6KtPT3O6B00HoxGNgJMRIsLJWmuixS39-ltzStW36YbYAiFgT2bAjM~4SiJzZHrxAGYkowFqH-UBv~bYpjR7xZ1~a3SDGGWw029BgoCyMW9m~awYiocKd7SorKQiO70MDVHaJ83lGDYync~WlGx5qvcuUNJuLL4uWIBIsEv1FsxKvzwvk56IUdXueArvGmqriTZZ83F7msvzCcq3eLgBgwNaibzXSK6Sb0Og__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 10.9,
+      "amount": 0
+    },
+    {
+      "id": 8,
+      "types": ["TRADICIONAL", "COM LEITE"],
+      "title": "Macchiato",
+      "description": "Café expresso misturado com um pouco de leite quente e espuma",
+      "image": "https://s3-alpha-sig.figma.com/img/890a/8773/a655c4fabfc9a7ecdc389e6ea93587ac?Expires=1669593600&Signature=V9eYVTVKfXyAL2SLG2yzAw1LGk5zqjbKeDuGDG3yHh3vCw55J2JuyzUeBCjoXgFF-zNl5ScyYxZZ-vFj5WOkRtnFRVlpbBQFnrcoYYHvlAOFCvOyamh3fTFE8UnVgutthlhgzhCgozRMe-jq-~E5NiQ0Z-EOuRg2l009MuCIuw58c2vjcpkoTx-pBHdrUUyDcNdstFbbu7WN1UU40s0lemSrqTaN1xhhIwgAsE8Tep7TrweowJnUUPfnjXSp5dfy9W7xXdPE2D0fHtX5eQ4cUkGralNYRJOzy3zGs4e5L07tS-08d0XH5NbauHI9cq-BCMt5X~3bJoXRR~ryx1xwcw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 15.9,
+      "amount": 0
+    },
+    {
+      "id": 9,
+      "types": ["TRADICIONAL", "COM LEITE"],
+      "title": "Mocaccino",
+      "description": "Café expresso com calda de chocolate, leite e espuma",
+      "image": "https://s3-alpha-sig.figma.com/img/bc3e/4798/837b2a3ba5d0fa098e7e39985025efb7?Expires=1669593600&Signature=OT7k6gqF1G1pLWz-dfkJhAaorL~WS0lKimVMcjLdViwrq3gLgrY4xu15EKq1GNXwu7aC0yqxwCMKDmwNjbYwzihakxZbxEKBfuaBvAj3leOfRwhwqe0lteZHJujqpVpzOfe72wNCnAKLc~qqkCAXWdOl5bhinW5qRndX9WNqhm6FbmmBbZ0y3RZJM9Bfhwoyc5oN2PKlHnC5-DsS6OF-LO7-fOEf~rVX4W3eKRFjFu6Og1qRR3f~XIwM-gJHKjto90Br8pwgEzD3y8~cF4jO-Xx6EnCVEpgKCP15BNG384gWoJJstQVRO84XvEMBZZ~T1u-liMpR~tAaf8e~a6D5xA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 7.9,
+      "amount": 0
+    },
+    {
+      "id": 10,
+      "types": ["ESPECIAL", "COM LEITE"],
+      "title": "Chocolate Quente",
+      "description": "Bebida feita com chocolate dissolvido no leite quente e café",
+      "image": "https://s3-alpha-sig.figma.com/img/4462/16dc/20b9de473c3aadc304466df059e1887e?Expires=1669593600&Signature=WK7jOpR6DScHeqdgr2Tb2MQtsTh0Mmjh6ywx2yFh5aQgSyEKKzj0tk43MgAAVsTKBPTI85GDO~XS4I2OnueeugHqfoh8nWTxoFkleQF64tlLwZ3k9haP4KbvmQSoxvgdB8FQadFkhdCSQwo2F7SNkdWfYLoAeRGI~KZ5ndHRXeRfeTlxSpud5GITeGXA6VaTmwSz~GpjQehSA~i6GRSJ6lMBG~wiDKWzyn~x1HwyODLj5rLRSDpgHBWEndH-yp87F5Vq530QD1huBbi5s3V7hVP61y3L~2KVNI88rNDK4C5lbAFYxnuwy6jwCRrVaI5Xor4E25nnxEUrYvgkPA9fEg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 12.9,
+      "amount": 0
+    },
+    {
+      "id": 11,
+      "types": ["ESPECIAL", "ALCOÓLICO", "GELADO"],
+      "title": "Cubano",
+      "description": "Drink gelado de café expresso com rum, creme de leite e hortelã",
+      "image": "https://s3-alpha-sig.figma.com/img/dae3/2866/45ab1873edeac1c90c31203f5bf3ed52?Expires=1669593600&Signature=Wg~T8O2IhAiiVyfLBPWKcYBsovatYupmexetrymhl~8v0QhuqHaGzVkNZHzbAXajr30qQQTM5jpQdeZ7nUo~qGokJZSpbhPJ9XgKdJCHm~TKfbmMkhjsiKJL0g1Mk6nAt8DPqW5nlYR6k~vUhHawJ0VQmagP3AUv6~xew4BTxD0jpgckS78YO7ujSzqzuids5KuByz0F81eOoTNYFzvIyiTEHFt~SOKrZHg05u9eJnEzoFUqDwbFW0W~XQDjDAho3RWPrOiKIMP30VIyco~Rob5GTYUo9JNY1781m0uK4rVJfnGBp4PepoWDYtsl4JgRLSqBwiCnkzovynq-MZlt~w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 9.9,
+      "amount": 0
+    },
+    {
+      "id": 12,
+      "types": ["ESPECIAL"],
+      "title": "Havaiano",
+      "description": "Bebida adocicada preparada com café e leite de coco",
+      "image": "https://s3-alpha-sig.figma.com/img/64fd/9a26/b6d3187556021c2da9fc80f2da41088f?Expires=1669593600&Signature=W1P6yGDvWKzEuUu3tEQk8mTbT8r5ZZh5PXAv6uvwuIfDS1~RO29KPVSO79YMzHxPBoqxl63uBwly2nH3LthOeeJckftsYcz1~it9rbscqxCsNtx~kFxpEATe0r7E4MYxxX-tURH3PoECs8JzYW4OnFqD0lLXJ9daTpsZOukpe5xiNZz9yaaWZZmojchVHprGvcOElO1xa~P1SgE-yj5vF-Ek7Odez50VQ0muSl02K8LPW7MiaMQ62E5iOJ7ApzT0UhIY7fIm4HEXzIkS5zyBVK6JSNwdnUvTS02xbsZ3mzdLFDMT5uHtsNRDdoLceKXN24OlZGjYrGylBZSjLLLBlw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 20.9,
+      "amount": 0
+    },
+    {
+      "id": 13,
+      "types": ["ESPECIAL"],
+      "title": "Árabe",
+      "description": "Bebida preparada com grãos de café árabe e especiarias",
+      "image": "https://s3-alpha-sig.figma.com/img/8bcb/3d33/7b04857330d98e72e67bde570cbc8963?Expires=1669593600&Signature=Lcfde9qiyn3F7KtjeXZaR4TBFDJzDBTisSwyHp9IXc7uUvJnWpcz2IiueM0saX59BNRoQzkWVyBIY95WVrdvnZiWJjgjM-hgELULUfgt0VWOVjBHqUxcJ4TS4aHDf-kCVV8VGZyUlCUmOfBEhvmI118m9Rl3-ZNEJNuCXxssvOeITlrlz4Ywf1ZCyIg8qZkjV5ZzxxoG4LEy2HwGRaQ4ekDHyYbAuIuDrdpdlkGXWDZm8mDQr71ZkobaQayJ0CiBP1IZhflDTfx5tcfqp8-eFredvo79VZ4TvoxKQcBzPYOOs0~RWdRDzoUMeCCtyk1rSkrnfZQxgINHiXdfLTrCEQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 9.9,
+      "amount": 0
+    },
+    {
+      "id": 14,
+      "types": ["ESPECIAL", "ALCOÓLICO"],
+      "title": "Irlandês",
+      "description": "Bebida a base de café, uísque irlandês, açúcar e chantilly",
+      "image": "https://s3-alpha-sig.figma.com/img/53b9/9cd5/c0cac4ecf7b9bd81c976cdd9fe2ab3a3?Expires=1669593600&Signature=TjWSIVPEELhzTQXoKkOQV4bzRRJCRHtWutWKlmJYJ~kAs2mRbRTgHQ9fFE-lukhBOooy9s5gHJnPmDfGWDNR2RMfzT5d0eHQR0Q0EVOR6V2wVBcY11OtkOXo22ubggQJge8n0qnklzFq49zxcf34z-dGKJKkOIoKBEmCqs90FMzxuQX3PgSACd2zBi09qbPPOD4tcQNRv3r~OUD84TmFW5r4tllTYW-rEiBCm7icv8NUI2-1v5tuc4BvDDIGrEEAJimkkghFZ7p1-EWiv3y2jRZdcGMi8ZdWjomZZWunjeZkDqMuw4CDDTgUZvw8ZFUngqfTJe~79iRnljMJYAkesw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 10.9,
+      "amount": 0
+    }
+  ]
+}
