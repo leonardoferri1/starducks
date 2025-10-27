@@ -1,5 +1,5 @@
 import { createContext, ReactNode, useEffect, useState } from "react";
-import { api } from "../../services/api";
+import { coffees } from "../../utils/coffees";
 
 export interface Coffee {
   id: number;
@@ -9,7 +9,7 @@ export interface Coffee {
   image: string;
   price: number;
   amount: number;
-  totalPrice: string;
+  totalPrice?: string;
 }
 
 interface CartProviderProps {
@@ -40,86 +40,51 @@ const cartLocalStorageKey = "@coffee-delivery:cart-info";
 export function CartProvider({ children }: CartProviderProps) {
   const [cart, setCart] = useState<Coffee[]>(() => {
     const storagedCart = localStorage.getItem(cartLocalStorageKey);
-
-    if (storagedCart) {
-      return JSON.parse(storagedCart);
-    }
-
-    return [];
+    return storagedCart ? JSON.parse(storagedCart) : [];
   });
-  const [bag, setBag] = useState<Coffee[]>([]);
 
-  useEffect(() => {
-    async function loadProducts() {
-      api.get("/coffees").then(({ data }) => setBag(data));
-    }
-
-    loadProducts();
-  }, []);
-
-  console.log(cart);
+  const [bag, setBag] = useState<Coffee[]>(coffees);
 
   const addCoffee = async (coffeeId: number) => {
     const coffeeExistInCart = cart.find((item) => item.id === coffeeId);
     const newBag = bag.find((coffee) => coffee.id === coffeeId);
 
-    // if (coffeeExistInCart) {
-    //   throw in some error
-    // }
-
     if (!coffeeExistInCart && newBag) {
-      if (newBag.amount < 1) {
-        return;
-      }
+      if (newBag.amount < 1) return;
       setCart((old) => [...old, { ...newBag }]);
     }
   };
 
   const cleanCart = (coffeeId: number) => {
-    const newBag = [...bag];
-
-    setBag((old) => {
-      return old.map((coffee) => {
-        if (coffee.id === coffeeId) {
-          coffee.amount = 0;
-        }
-        return coffee;
-      });
-    });
+    setBag((old) =>
+      old.map((coffee) =>
+        coffee.id === coffeeId ? { ...coffee, amount: 0 } : coffee
+      )
+    );
   };
 
   const updateBagCoffeeAmount = ({ coffeeId, amount }: UpdateCoffeeAmount) => {
-    const newBag = [...bag];
-    const newListBag = newBag.map((coffee) => {
-      if (coffee.id === coffeeId) {
-        coffee.amount = amount;
-      }
-      return coffee;
-    });
-    setBag(newListBag);
+    setBag((old) =>
+      old.map((coffee) =>
+        coffee.id === coffeeId ? { ...coffee, amount } : coffee
+      )
+    );
   };
 
   const updateCoffeeAmount = ({ coffeeId, amount }: UpdateCoffeeAmount) => {
-    const newCart = [...cart];
-
-    const newListCart = newCart.map((coffee) => {
-      if (coffee.id === coffeeId) {
-        coffee.amount = amount;
-      }
-      return coffee;
-    });
-
-    setCart(newListCart);
+    setCart((old) =>
+      old.map((coffee) =>
+        coffee.id === coffeeId ? { ...coffee, amount } : coffee
+      )
+    );
   };
 
   const deleteCoffee = (coffeeId: number) => {
-    const newCart = cart.filter((coffee) => coffee.id !== coffeeId);
-    setCart(newCart);
+    setCart((old) => old.filter((coffee) => coffee.id !== coffeeId));
   };
 
   useEffect(() => {
-    const substitute = JSON.stringify(cart);
-    localStorage.setItem(cartLocalStorageKey, substitute);
+    localStorage.setItem(cartLocalStorageKey, JSON.stringify(cart));
   }, [cart]);
 
   return (
